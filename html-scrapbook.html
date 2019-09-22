@@ -27,6 +27,8 @@
     <quote>“Jet from Gladiators to host a millennium barn dance at Yeovil aerodrome. Properly policed. It must not, I repeat not, turn into an all-night rave.”</quote>
 </div>
 <div class="lists">
+
+    <p>This is both ordered lists and unordered lists:</p>
     <ol>
         <li>This is numero uno </li>
         <li>This is number...2</li>
@@ -47,6 +49,72 @@
 
     </ul>
 </div>
+
+<p>Tables</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Gareth Beer</td>
+                <td>29</td>
+                <td>Gareth.Beer1989@outlook.com</td>
+            </tr>
+            <tr>
+                <td>Jane Doe</td>
+                <td>25</td>
+                <td>JaneDoe@hotmail.com</td>
+              </tr>
+              <tr>
+                <td>John Doe</td>
+                <td>35</td>
+                <td>JohnDoe@hotmial.com</td>
+             </tr>            
+        </tbody>
+     </table>
+<br>
+<br>
+     <form action="" method="post">
+         <div> <!-- Div elements are blockline so will put elements on new lines-->
+         <label for="first-name">First Name</label>
+         <input type="text" name="first-name" placeholder="Enter First Name here">
+        </div>
+        <br> <!--Usually would use css to add padding to create space between inputs but for now just use line break-->
+        <div>
+         <label for="">Last Name</label>
+         <input type="text" name="last-name" placeholder="Enter Last Name here">
+        </div>
+        <br>
+        <div>
+         <label>Email</label>   
+         <input type="text" name="email" id="" placeholder="Enter Email here">
+         </div>
+         <br>
+         <div>
+             <label for="">Message</label>
+             <textarea name="message" placeholder="Type messages here"></textarea>
+         </div>
+         <br>
+         <div>
+             <label for="gender">Gender</label>
+            <select name="gender" id="">
+                 <option value="male">Male</option>
+                 <option value="female">Female</option>
+                 <option value="other">Other</option>
+            </select>
+         </div>
+         <br>
+         <div>
+             <label>Age</label>
+             <input type="number" name="age" value="30">
+         </div>
+
+     </form>
 
 
 </body>
